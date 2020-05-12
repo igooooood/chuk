@@ -1,2 +1,0 @@
-# chuk
-Created with CodeSandbox

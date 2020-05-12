@@ -1,0 +1,31 @@
+.joke-block {
+  display: flex;
+  overflow-y: auto;
+  margin-bottom: auto;
+  padding: 24px 12px;
+  height: 160px;
+  width: 100%;
+  
+  border: 2px solid #3aabe2;
+  box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    margin-bottom: 28px;
+  } 
+}
+
+.joke-block__text {
+  text-align: left
+}
+
+.joke-block__pre-text {
+  align-self: center;
+  margin: 0 auto;
+}
+
+.joke-block__loader {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  align-self: center;
+}

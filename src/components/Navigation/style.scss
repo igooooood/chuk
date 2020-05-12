@@ -1,0 +1,43 @@
+
+.nav {
+  display: flex;
+}
+
+.nav__element {
+  display: flex;
+  color: #ff5a24;
+  &--favorite {
+    animation: heartbeat 1s;
+  }
+
+  &--arrow {
+    animation: trambling-animation 1s;
+  }
+}
+
+@keyframes heartbeat {
+  0%
+  {
+    transform: scale(1);
+  }
+  20%
+  {
+    transform: scale(1.25);
+  }
+    40%
+  {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes trambling-animation {
+  0%, 50%, 100% {
+      transform: rotate(0deg);
+  }
+  10%, 30% {
+      transform: rotate(-10deg);
+  }
+  20%, 40% {
+      transform: rotate(10deg);
+  }
+}
